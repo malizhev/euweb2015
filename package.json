@@ -1,0 +1,24 @@
+{
+  "name": "euweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "watchify ./src/app/app.js -t [ browserify-css --minify=true ] -t [ babelify --stage=0 ] -d -o ./dist/app.js"
+  },
+  "author": "Bogdan Malizhev",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^3.5.6",
+    "json5": "^0.4.0",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babelify": "^6.3.0",
+    "browserify": "^11.1.0",
+    "browserify-css": "^0.7.1",
+    "cssify": "^0.7.0",
+    "watchify": "^3.4.0"
+  }
+}
