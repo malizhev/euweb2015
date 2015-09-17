@@ -21,7 +21,7 @@ Initial data should look like this:
         left: 3,
         right: 6
     },
-    ...
+          ...
 ]
 ```
 
