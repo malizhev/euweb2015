@@ -1,6 +1,3 @@
-// Add global css to bundle
-import "./../css/app.css";
-
 import JSON from 'json5';
 
 import Tree from './classes/Tree';
