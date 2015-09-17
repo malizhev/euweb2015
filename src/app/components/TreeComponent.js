@@ -1,6 +1,3 @@
-// Add css to bundle
-import './../../css/treeComponent.css';
-
 import d3 from 'd3';
 import _max from 'lodash/collection/max';
 

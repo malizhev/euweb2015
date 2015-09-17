@@ -1,5 +1,3 @@
-@import "normalize.css";
-
 * {
 	box-sizing: border-box;
 }
@@ -51,4 +49,24 @@
 	flex: 1 0 700px;
 	min-width: 700px;
 	text-align: center;	
+}
+
+.app-tree .node {
+	cursor: pointer;
+}
+
+.app-tree .node circle {
+	fill: #fff;
+	stroke: #449fdb;
+	stroke-width: 3px;
+}
+
+.app-tree .node text {
+	font: 12px sans-serif;
+}
+
+.app-tree .link {
+	fill: none;
+	stroke: rgba(68, 159, 219, 0.2);
+	stroke-width: 2px;
 }
